@@ -1,0 +1,19 @@
+{
+  "name": "@haid-cli/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "as33066647 <as33066647@126.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Run testing from utils\""
+  }
+}
