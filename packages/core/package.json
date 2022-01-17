@@ -15,5 +15,8 @@
   ],
   "scripts": {
     "test": "echo \"Run testing from core\""
+  },
+  "bin": {
+    "haid-cli": "bin/index.js"
   }
 }
