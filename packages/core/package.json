@@ -18,5 +18,8 @@
   },
   "bin": {
     "haid-cli": "bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
