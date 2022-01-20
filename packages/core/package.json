@@ -19,6 +19,9 @@
   "bin": {
     "haid-cli": "bin/index.js"
   },
+  "dependencies": {
+    "@haid-cli/utils": "file:../utils"
+  },
   "publishConfig": {
     "access": "public"
   }
