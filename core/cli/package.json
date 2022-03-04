@@ -1,0 +1,37 @@
+{
+  "name": "@haid-cli/core",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "as33066647 <as33066647@126.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "haid-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Run testing from core\""
+  },
+  "dependencies": {
+    "@haid-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@haid-cli/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "import-local": "^3.1.0",
+    "minimist": "^1.2.5",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
